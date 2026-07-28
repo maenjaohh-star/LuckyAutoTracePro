@@ -1,0 +1,41 @@
+{
+    "id":"com.lucky.autotrace.pro",
+
+    "name":"Lucky AutoTrace Pro",
+
+    "version":"1.0.0",
+
+    "main":"main.js",
+
+    "manifestVersion":5,
+
+
+    "host":[
+        {
+            "app":"ILST",
+            "minVersion":"28.0"
+        }
+    ],
+
+
+    "entrypoints":[
+
+        {
+            "type":"panel",
+
+            "id":"autotracePanel",
+
+            "label":"Lucky AutoTrace Pro",
+
+            "minimumSize":{
+
+                "width":300,
+                "height":500
+
+            }
+
+        }
+
+    ]
+
+}
